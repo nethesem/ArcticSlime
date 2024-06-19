@@ -8,7 +8,7 @@ Arctic Slime is inspired by Frozen Slime, designed to be a PCB-based tracker tha
  - Diode protection and Batt Level Sense
  - 50mm strap loops to fit common cargo straps
 
-![Photo of Arctic Slimes with typical battery charger](./photo1.jpg)
+![Photo of Arctic Slimes with typical battery charger](photo1.jpg)
 
 Special thanks to;
 [frosty6742](https://github.com/frosty6742/frozen-slimes-v2/commits?author=frosty6742) - Frozen Slime concept, I think the PCB with integrated strap loops is a really cool idea.
