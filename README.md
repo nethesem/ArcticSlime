@@ -2,7 +2,7 @@
 A SlimeVR Tracker Design by nethesem. This page is a work in progress.
 
 Arctic Slime is designed to be a PCB-based tracker that does not require a case. Arctic aims to take advantage of the Li-Ion cell as a way of ditching integrated charging, reducing the number of components and making the charging process as simple as slapping the cells into external chargers. The 14500 (size of a AA) cell is significantly smaller than an 18650, making the overall design extremely simple and compact.
-Special thanks to [frosty6742](https://github.com/frosty6742/frozen-slimes-v2/commits?author=frosty6742), who designed Frozen Slime which was my inspiration for this, and [gorbit99](https://github.com/gorbit99/tiny-slime/commits?author=gorbit99), whose TinySlime design and GitHub I heavily plagurised to utilise the C3 Super Mini.
+Special thanks to [frosty6742](https://github.com/frosty6742/frozen-slimes-v2/commits?author=frosty6742), who designed Frozen Slime which was my inspiration for this, and [gorbit99](https://github.com/gorbit99/tiny-slime/commits?author=gorbit99), whose TinySlime design and GitHub I heavily plagiarized to utilise the C3 Super Mini.
 
  - Compact design around C3 SuperMini
  - Compatible with common BMI and 'official' BNO IMUs
