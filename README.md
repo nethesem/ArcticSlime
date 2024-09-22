@@ -1,9 +1,9 @@
 # Arctic Slime
 A SlimeVR Tracker Design by nethesem. This page is a work in progress.
 
-Arctic is designed to be a PCB-based tracker that does not require a case. Arctic aims to take advantage of the Li-ion cell as a way of ditching integrated charging, reducing the number of components and making the charging process as simple as dropping the cells into external chargers. The 14500 (size of a AA) or 16340 cells are significantly smaller than an 18650, making the overall design extremely simple and compact. The 14500 is slightly lower-profile, but can be tricky to find.
+Arctic is designed to be a PCB-based tracker that does not require a case. Arctic aims to take advantage of the Li-ion cell as a way of ditching integrated charging, reducing the number of components and making the charging process as simple as dropping the cells into external chargers. Li-ion cells come in more standardised sizes, which makes them easier to find within your country and saves the several week wait for Aliexpress cells.
 
-The Arctic "XL" version has an extended footprint to fit the ubiqutous 18650, which may be useful for people who either want the high-capacity that 18650 can offer, or if they're unable to obtain other cell sizes.
+The regular Arctic accepts 14500 (size of a AA) or 16340 cells, making the overall design extremely simple and compact. The Arctic "XL" version has an extended footprint to fit the ubiqutous 18650, which may be useful for people who either want the high-capacity that 18650 can offer, or if they're unable to obtain other cell sizes.
 
 Special thanks to [frosty6742](https://github.com/frosty6742/frozen-slimes-v2/commits?author=frosty6742), who designed Frozen Slime which was my inspiration for this, and [gorbit99](https://github.com/gorbit99/tiny-slime/commits?author=gorbit99), whose TinySlime design I used to make a C3 Supermini version of Arctic.
 
@@ -39,6 +39,7 @@ Development prototypes used the C3 Supermini ESP board, which further reduces th
 | MSS22D18 Switch                       |     1 | [AliExpress](https://aliexpress.com/item/4000699811538.html)                 |
 
 *Any IMU that is pin compatible with the two listed options should also work, such as LSM varieties or the BMI160. BNO085 and BMI270 are my current reccomendations.
+
 **Select the size you want to use. 14500 and 16340 cells are similar in capacity. The 14500 is slightly lower-profile, reducing the height of the tracker. Use whichever are more easily available to you, look for Vape, RC, or Flashlight shops that stock Li-ion cells in your country. Aliexpress Li-ion cells are a dice roll, aim for 800mAh for a realistic capacity.
 
 ## Assembly
@@ -56,7 +57,7 @@ Trackers can be flashed using the SlimeVR online firmware tool. I reccomend the 
    - SCL Pin: D1
    - LED Pin: 2
  - Primary IMU: Select as appropriate
-  - If BNO085, INT Pin: D5
+   - If BNO085, INT Pin: D5
  - Secondary IMU: Uncheck**
  - Battery Sense should be BAT_EXTERNAL
    - Battery Shield Resistance: 180
@@ -65,4 +66,5 @@ Trackers can be flashed using the SlimeVR online firmware tool. I reccomend the 
    - Battery Sense Pin: A0
 
 *I reccomend checking in with the SlimeVR Discord regardless of what IMU you're using, as they will always know the most up-to-date firmware.
+
 **Aux / Secondary IMU: This PCB does not support Aux IMUs. Given the low-capacity batteries and already compact PCB, it's not a good match up. You can jumper-wire aux wires from the pins of the main IMU if you really want, but there are no plans to add support for this.
