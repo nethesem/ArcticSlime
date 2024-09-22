@@ -1,4 +1,11 @@
 # Misc Versions
+## XL (18650) edition
+The XL version has extended tabs to accomodate an 18650 footprint. This can be useful as the 18650 cell can offer very high capacity (up to 3000mAh) for exceptionally long run time. The 18650 is also an extremely common Li-ion cell, purchasable from many places and also easy to scavage from old laptop batteries and powerbanks, making it a great candidate if you simply cannot get other Li-ion / Li-po cells.
+
+Note that the 18650, along with being physically large, will also be noticably heavier than other cells, which can affect stability.
+
+(Photo of XL edition to follow)
+
 ## C3 Supermini edition
 The C3 Supermini is significantly smaller than a D1 Mini, allowing for a 9mm reduction of the total width (50mm vs 59mm). This version is 14500 only, since it's designed to be as small as possible.
 
