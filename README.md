@@ -2,7 +2,9 @@
 A SlimeVR Tracker Design by nethesem. This page is a work in progress.
 
 Arctic is designed to be a PCB-based tracker that does not require a case. Arctic aims to take advantage of the Li-ion cell as a way of ditching integrated charging, reducing the number of components and making the charging process as simple as dropping the cells into external chargers. The 14500 (size of a AA) or 16340 cells are significantly smaller than an 18650, making the overall design extremely simple and compact. The 14500 is slightly lower-profile, but can be tricky to find.
+
 The Arctic "XL" version has an extended footprint to fit the ubiqutous 18650, which may be useful for people who either want the high-capacity that 18650 can offer, or if they're unable to obtain other cell sizes.
+
 Special thanks to [frosty6742](https://github.com/frosty6742/frozen-slimes-v2/commits?author=frosty6742), who designed Frozen Slime which was my inspiration for this, and [gorbit99](https://github.com/gorbit99/tiny-slime/commits?author=gorbit99), whose TinySlime design I used to make a C3 Supermini version of Arctic.
 
  - Case-less design requires no 3D printing
@@ -17,9 +19,9 @@ Special thanks to [frosty6742](https://github.com/frosty6742/frozen-slimes-v2/co
 ![Photo of Arctic Board View](./images/Arctic-BoardView.png)
 ![Photo of Arctic Board Render](./images/Arctic-BoardRender.png)
 
-## Miscalanious versions
+## Miscellaneous versions
 
-Development prototypes used the C3 Supermini ESP board, which further reduces the size of the tracker. However, the supermini has an extremely poor antenna, limiting the range of the tracker to "within a few meters of your router" for reliable performance. As such I made the final version slightly bigger for a D1 Mini. But if you want to build the Supermini version and have a solution to the antenna, the files are available in the Other Versions folder.
+Development prototypes used the C3 Supermini ESP board, which further reduces the size of the tracker. However, the supermini has an extremely poor antenna, limiting the range of the tracker to "within a few meters of your router" for reliable performance. As such I made the final version slightly bigger for a D1 Mini. But if you want to build the Supermini version and have a solution to the antenna, the files are available in the Misc Versions folder.
 
 ## BOM
 
