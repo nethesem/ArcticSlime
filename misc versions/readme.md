@@ -4,7 +4,7 @@ The XL version has extended tabs to accomodate an 18650 footprint. This can be u
 
 Note that the 18650, along with being physically large, will also be noticably heavier than other cells, which can affect stability.
 
-(Photo of XL edition to follow)
+![Photo of Arctic XL with 18650 cell and 50mm Strap](../images/ArcticXL-Photo.jpg)
 
 ## C3 Supermini edition
 The C3 Supermini is significantly smaller than a D1 Mini, allowing for a 9mm reduction of the total width (50mm vs 59mm). This version is 14500 only, since it's designed to be as small as possible.
@@ -25,7 +25,7 @@ The C3 Supermini's antenna is very bad, so this version is not viable unless you
 | MSS22D18 Switch                       |     1 | [AliExpress](https://aliexpress.com/item/4000699811538.html)                 |
 
 ## Flash Settings for C3 Supermini edition
-When flashing, hold the BOOT button on the C3 SuperMini as you connect the USB cable to ensure its in Flash Mode, otherwise flashing will likely fail.
+This PCB is configured in the same way as the TinySlime, you can select TinySlime as the Board type to auto-set the parameters. When flashing, hold the BOOT button on the C3 SuperMini as you connect the USB cable to ensure its in Flash Mode, otherwise flashing will likely fail.
 
  - Firmware Version:
    - For BNO085 or BMI270, use SlimeVR/main. Other IMUs, consult SlimeVR Discord.
