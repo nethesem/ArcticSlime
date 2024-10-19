@@ -36,7 +36,7 @@ Development prototypes used the C3 Supermini ESP board, which further reduces th
 | 14500 Battery Holder                  |     1 | [AliExpress](https://www.aliexpress.com/item/1005006254465094.html)          |
 | 16340 Battery**                       |     1 | ???                                                                          |
 | 16340 Battery Holder                  |     1 | [AliExpress](https://aliexpress.com/item/1005005873648134.html)              |
-| 1N5817 diode                          |     1 | [AliExpress](https://aliexpress.com/item/1005002813143363.html)              |
+| 1N5817 diode                          |     1 | [AliExpress](https://aliexpress.com/item/4000204938838.html)              |
 | 1/4w 180kΩ resistor                   |     1 | [AliExpress](https://aliexpress.com/item/1005006358156511.html)              |
 | MSS22D18 Switch                       |     1 | [AliExpress](https://aliexpress.com/item/4000699811538.html)                 |
 
